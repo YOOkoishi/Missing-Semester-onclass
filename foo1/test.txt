@@ -1,0 +1,8 @@
+/usr/bin/ld: /tmp/ccExUcCq.o: warning: relocation against `_ZSt4cout' in read-only section `.text'
+/usr/bin/ld: /tmp/ccExUcCq.o: in function `main':
+foo6.cpp:(.text+0xe): undefined reference to `std::cout'
+/usr/bin/ld: foo6.cpp:(.text+0x19): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: foo6.cpp:(.text+0x20): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: foo6.cpp:(.text+0x2b): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: 错误：ld 返回 1
