@@ -1,0 +1,5 @@
+2023-10-01 10:00:00 [INFO] Application started
+2023-10-01 10:00:05 [DEBUG] Loading config
+2023-10-01 10:00:10 [ERROR] Connection failed
+2023-10-01 10:00:15 [INFO] Retrying...
+2023-10-01 10:00:20 [ERROR] Timeout
